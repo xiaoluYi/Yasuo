@@ -8,7 +8,8 @@ a demo like ZhiHuDaily base Dagger2+RxJava+MVP+retrofit2.0
 
 项目详细介绍http://www.jianshu.com/p/d85d85d616cd  
 
-Points  
+Points  
+
 使用Dagger2实现依赖注入  
 使用RxJava配合Retrofit2做网络请求  
 使用MVP架构整个项目  
