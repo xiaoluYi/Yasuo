@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal">
+<ImageView
+    android:id="@+id/icon"
+    android:src="@mipmap/ic_author"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:text="请登录"
+       android:paddingLeft="10dp"
+        android:textSize="16dp"
+        android:layout_toRightOf="@id/icon"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
