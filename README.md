@@ -18,13 +18,28 @@ a demo like ZhiHuDaily base Dagger2+RxJava+MVP+retrofit2.0
 
 <h1>Version</h1>  
 1.0
+
 <h2>Thanks</h2>  
 知乎日报API  
 (https://github.com/izzyleung/ZhihuDailyPurify/wiki/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5-API-%E5%88%86%E6%9E%90)  
 
 <h2>Preview</h2>
+![Screenshot_20170218-100706.jpg](http://upload-images.jianshu.io/upload_images/3708894-875876dafd9bcced.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![Screenshot_20170218-100729.jpg](http://upload-images.jianshu.io/upload_images/3708894-5d84ac41be72b241.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Screenshot_20170218-100709.jpg](http://upload-images.jianshu.io/upload_images/3708894-ea1b543f720fa2fa.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![Screenshot_20170218-100741.jpg](http://upload-images.jianshu.io/upload_images/3708894-c5df9d7e1729aca9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![Screenshot_20170218-100726.jpg](http://upload-images.jianshu.io/upload_images/3708894-b20ab0fc5a0354fb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![Screenshot_20170218-100713.jpg](http://upload-images.jianshu.io/upload_images/3708894-a2ddb786dc46c850.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ![ezgif.com-video-to-gif (2).gif](http://upload-images.jianshu.io/upload_images/3708894-a337429afc1cc122.gif?imageMogr2/auto-orient/strip)
+
 ![ezgif.com-video-to-gif.gif](http://upload-images.jianshu.io/upload_images/3708894-00b48ca3de86f8d5.gif?imageMogr2/auto-orient/strip)
+
 ![ezgif.com-video-to-gif (1).gif](http://upload-images.jianshu.io/upload_images/3708894-26ce52e504088623.gif?imageMogr2/auto-orient/strip)
+
 
 
