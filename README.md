@@ -18,14 +18,11 @@ a demo like ZhiHuDaily base Dagger2+RxJava+MVP+retrofit2.0
 
 <h1>Version</h1>  
 1.0
-
 <h2>Thanks</h2>  
 知乎日报API  
 (https://github.com/izzyleung/ZhihuDailyPurify/wiki/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5-API-%E5%88%86%E6%9E%90)  
 
 <h2>Preview</h2>
-
-
 ![ezgif.com-video-to-gif (2).gif](http://upload-images.jianshu.io/upload_images/3708894-a337429afc1cc122.gif?imageMogr2/auto-orient/strip)
 ![ezgif.com-video-to-gif.gif](http://upload-images.jianshu.io/upload_images/3708894-00b48ca3de86f8d5.gif?imageMogr2/auto-orient/strip)
 ![ezgif.com-video-to-gif (1).gif](http://upload-images.jianshu.io/upload_images/3708894-26ce52e504088623.gif?imageMogr2/auto-orient/strip)
