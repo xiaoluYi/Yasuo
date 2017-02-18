@@ -35,11 +35,11 @@ a demo like ZhiHuDaily base Dagger2+RxJava+MVP+retrofit2.0
 
 ![Screenshot_20170218-100713.jpg](http://upload-images.jianshu.io/upload_images/3708894-a2ddb786dc46c850.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![ezgif.com-video-to-gif (2).gif](http://upload-images.jianshu.io/upload_images/3708894-a337429afc1cc122.gif?imageMogr2/auto-orient/strip)
+![jie1.gif](http://upload-images.jianshu.io/upload_images/3708894-a337429afc1cc122.gif?imageMogr2/auto-orient/strip)
 
-![ezgif.com-video-to-gif.gif](http://upload-images.jianshu.io/upload_images/3708894-00b48ca3de86f8d5.gif?imageMogr2/auto-orient/strip)
+![jie2.gif](http://upload-images.jianshu.io/upload_images/3708894-00b48ca3de86f8d5.gif?imageMogr2/auto-orient/strip)
 
-![ezgif.com-video-to-gif (1).gif](http://upload-images.jianshu.io/upload_images/3708894-26ce52e504088623.gif?imageMogr2/auto-orient/strip)
+![jie3.gif](http://upload-images.jianshu.io/upload_images/3708894-26ce52e504088623.gif?imageMogr2/auto-orient/strip)
 
 
 
