@@ -65,4 +65,14 @@ public class SpUtils {
         SharedPreferences sharedPreferences = getDefaultSharedPreferences(context);
         return sharedPreferences.getBoolean(String.valueOf(adapterPosition),false);
     }
+
+    public static void setIsLike(Context context, int id, boolean isLike) {
+        SharedPreferences sharedPreferences = getDefaultSharedPreferences(context);
+        sharedPreferences.edit().putBoolean(String.valueOf(id), isLike).apply();
+    }
+
+    public static boolean getIsLike(Context context, int id) {
+        SharedPreferences sharedPreferences = getDefaultSharedPreferences(context);
+        return sharedPreferences.getBoolean(String.valueOf(id),false);
+    }
 }

@@ -47,12 +47,6 @@ public class ApiModule {
         return new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create();
     }
 
-//    @Provides
-//    @Singleton
-//    Converter.Factory provideConverterFactory(Gson gson) {
-//        return DefaultConfig.CustomGsonConverFactory.create(gson);
-//    }
-
     @Provides
     @Singleton
     Retrofit provideRetrofit(OkHttpClient okHttpClient) {

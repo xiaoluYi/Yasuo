@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,8 +14,6 @@ import com.sjl.yuehu.injector.component.DaggerFragmentComponent;
 import com.sjl.yuehu.injector.component.FragmentComponent;
 import com.sjl.yuehu.injector.module.ActivityModule;
 import com.sjl.yuehu.injector.module.FragmentModule;
-
-import javax.inject.Inject;
 
 /**
  * Created by 小鹿 on 2017/2/4.
