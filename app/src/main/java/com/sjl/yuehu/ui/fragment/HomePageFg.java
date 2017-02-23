@@ -1,22 +1,21 @@
 package com.sjl.yuehu.ui.fragment;
 
-import android.graphics.Color;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import com.facebook.stetho.common.LogUtil;
 import com.sjl.yuehu.R;
 import com.sjl.yuehu.data.bean.HomeBean;
 import com.sjl.yuehu.mvp.presenter.HomePagePresenter;
 import com.sjl.yuehu.mvp.view.HomePageMvpView;
+import com.sjl.yuehu.ui.activity.WebViewAct;
 import com.sjl.yuehu.ui.adapter.HomePageAdapter;
 import com.sjl.yuehu.ui.base.BaseFg;
 
@@ -39,7 +38,7 @@ public class HomePageFg extends BaseFg implements HomePageMvpView, HomePageAdapt
     private HomePageAdapter adapter;
     @Inject
     HomePagePresenter presenter;
-    private LinearLayoutManager linearLayoutManager ;
+    private LinearLayoutManager linearLayoutManager;
     private boolean isrefresh = true;
     private int i = 1;
     private View rootView;
@@ -47,7 +46,7 @@ public class HomePageFg extends BaseFg implements HomePageMvpView, HomePageAdapt
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        if(rootView==null){
+        if (rootView == null) {
             getFragmentComponent().inject(this);
             rootView = View.inflate(getContext(), R.layout.fristpage_fg, null);
             ButterKnife.bind(this, rootView);
@@ -65,7 +64,7 @@ public class HomePageFg extends BaseFg implements HomePageMvpView, HomePageAdapt
 
     private void init() {
         presenter.onLoadLatest();
-        linearLayoutManager=new LinearLayoutManager(getContext());
+        linearLayoutManager = new LinearLayoutManager(getContext());
         rv.setLayoutManager(linearLayoutManager);
         adapter = new HomePageAdapter(getContext(), this);
         rv.setAdapter(adapter);
@@ -120,11 +119,9 @@ public class HomePageFg extends BaseFg implements HomePageMvpView, HomePageAdapt
 
     @Override
     public void click(int id) {
-        WebViewFg webFg = new WebViewFg();
-        Bundle bundle = new Bundle();
-        bundle.putInt("id", id);
-        webFg.setArguments(bundle);
-        fgListener.switchFragment(webFg, true);
+        Intent intent = new Intent(getContext(), WebViewAct.class);
+        intent.putExtra("id", id);
+        startActivity(intent);
     }
 
     @Override

@@ -5,6 +5,7 @@ import com.sjl.yuehu.data.bean.HomeBean;
 import com.sjl.yuehu.data.bean.ThemesBean;
 import com.sjl.yuehu.data.bean.TitileBean;
 import com.sjl.yuehu.data.bean.WebBean;
+import com.sjl.yuehu.data.bean.WebExtraBean;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
@@ -52,4 +53,9 @@ public interface ApiService {
 //  at.zhihu.com/api/4/section/34/before/1465772400
     @GET("theme/{id}/before/{timestamp}")
     Observable <ThemesBean> onThemeGone(@Path("timestamp") String timestamp, @Path("id")int id);
+
+    @GET("story-extra/{id}")
+    Observable <WebExtraBean> onLoadExtra(@Path("id")int id);
+
+
 }

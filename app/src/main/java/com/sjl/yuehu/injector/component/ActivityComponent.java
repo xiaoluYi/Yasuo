@@ -4,6 +4,7 @@ import com.sjl.yuehu.injector.module.ActivityModule;
 import com.sjl.yuehu.injector.scope.ActivityScope;
 import com.sjl.yuehu.ui.activity.GuiderActivity;
 import com.sjl.yuehu.ui.activity.MainAct;
+import com.sjl.yuehu.ui.activity.WebViewAct;
 
 import dagger.Component;
 
@@ -17,4 +18,6 @@ public interface ActivityComponent {
     void inject(GuiderActivity guiderActivity);
 
     void inject(MainAct mainAct);
+
+    void inject(WebViewAct webAct);
 }

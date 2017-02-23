@@ -21,6 +21,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.activity.MainAct" />
+        <activity android:name=".ui.activity.WebViewAct" />
+        <activity android:name=".ui.activity.CommentAct" />
     </application>
 
 </manifest>

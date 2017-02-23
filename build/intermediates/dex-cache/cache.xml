@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.1_dfbd55a58261f7c05f77ce62ac0bc2aee1dbe6b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.jakewharton.rxbinding\rxbinding-support-v4\0.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="417b075934c24fa45ba94be0f451fd6dec69feb8">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton.rxbinding-rxbinding-support-v4-0.4.0_3b049903befe49be9da1656cb96080cdedaf853e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_b24abf7129ec4214371ef66ae2192568264fb01f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3a6b1f13d8a4617b8f05a090d72ac044126d298d">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_74f3c2b11c4b37cd40572d4021840a719674a14b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_f05e4ae7870b30ef76139b47e58a8426f27683c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsr305-2.0.1_49b230a6d3f1227b21e23252d1c43f8973bf9bef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_bd07afbb9cbd29d315abd7e25b69ab93cfd3eb67\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_9192561af9e0273c2e57b66fff11425753d9d308\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.jakewharton.rxbinding\rxbinding\0.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton.rxbinding-rxbinding-0.4.0_140c8def5da32a9de2cfd3e4b2feae1f875bb4c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="61927633c1616c6868f34ad5352b0cc8bd374a75">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7fb1905a57e99d4891c15a6b96d5909b84cd8bf7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.tbruyelle.rxpermissions\rxpermissions\0.7.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="50fd38504119ea609c269abf98af75fb14e82f2c">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.tbruyelle.rxpermissions-rxpermissions-0.7.0_3091a21df4120e58cd3839bd9024b28e45bbc83e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\com.facebook.stetho\stetho\1.3.1\2c4076b466a0eb4d6ddf5721edd35cd1adc1f317\stetho-1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2c4076b466a0eb4d6ddf5721edd35cd1adc1f317">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\stetho-1.3.1_ade61570b3829ab61f4c999a05062d19b13c97a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.jude\rollviewpager\1.4.6\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5369e56159e8bd94b665f90390f262d26a57e73a">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jude-rollviewpager-1.4.6_86410e10fe7ec147efdce8ba28bb133b03d7e163\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-analyzer\1.4-beta2\449777cd466ac0a16f7e8d0dc508e70e2cdd13a9\leakcanary-analyzer-1.4-beta2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="449777cd466ac0a16f7e8d0dc508e70e2cdd13a9">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\leakcanary-analyzer-1.4-beta2_029a1fda691d50aaacc69c93ab28cb3fd533c6d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_0721caee67cf475f593d967aee59e97c399ff5e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_254a1c04c76cb068e850b1666290345595bf3cba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_4de9d0e48d0ccec4e58d66feeaacc7d7d1febffd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.jakewharton.rxbinding\rxbinding-appcompat-v7\0.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cea3c0edbda1279bc261187fb3b6f874bfc841f4">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton.rxbinding-rxbinding-appcompat-v7-0.4.0_0e9fcbb33ad7760a211a5665dc7b4b62c78b349e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\com.google.dagger\dagger\2.0\da7ba0ee1d30edd955da276cdf01d3d7cb24aedc\dagger-2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="da7ba0ee1d30edd955da276cdf01d3d7cb24aedc">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\dagger-2.0_8a9d9355261c89c8b137b7b51e3575456f35d597\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.0-beta3\8bff75d7360aaa3866f1e6949c877dfcc2b3d3e2\converter-gson-2.0.0-beta3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8bff75d7360aaa3866f1e6949c877dfcc2b3d3e2">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta3_a538f9a710f832c61618bdb1d5b9fadaa29ca7b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\com.facebook.stetho\stetho-okhttp3\1.3.1\c596b3b33b5a92107bb70544bb5ee35f597bc6d8\stetho-okhttp3-1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c596b3b33b5a92107bb70544bb5ee35f597bc6d8">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\stetho-okhttp3-1.3.1_0bfb6a56ab68fccddc3bec86741f57af46d58184\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.getkeepsafe.relinker\relinker\1.2.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.getkeepsafe.relinker-relinker-1.2.2_295c3bc6f2fe827f54fb96146670b83c419a700b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\javax.inject-1_f6481a49d436cb5e0134be690fafe52dc58d7a9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\libs\tbs_sdk_thirdapp_v2.2.0.1096_36549_sharewithdownload_withoutGame_obfs_20160830_211645.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="625aba38967d1ccd8ccc70931d497eceb5485ad4">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\tbs_sdk_thirdapp_v2.2.0.1096_36549_sharewithdownload_withoutGame_obfs_20160830_211645_bfa269ef111baf9d4da12a2fd2597c5cb176d0b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.1\b494968f6050d494de55dc3ce005e59c7eb40012\rxjava-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b494968f6050d494de55dc3ce005e59c7eb40012">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.1_216fd440233252195216ec2dfcee98567b0c349a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\io.realm\realm-android-library\2.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="205155180b7747a96c076484ba0014e4bcacb33d">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.realm-realm-android-library-2.3.1_d964639dc8c5c7b428930818bc87bdc39105233d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\commons-cli\commons-cli\1.2\2bf96b7aa8b611c177d329452af1dc933e14501c\commons-cli-1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-cli-1.2_375b1440da738382b91e000c251602852dd755a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\com.squareup.haha\haha\2.0.2\fd65b84d12d6adc77ec0e4fcaca623fc391d8679\haha-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fd65b84d12d6adc77ec0e4fcaca623fc391d8679">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\haha-2.0.2_f6ddab2316a1bc57605001fd1741fecb191bac84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.reactivex-rxandroid-1.1.0_73ba47249bb9c3219102c8703755846aeb483634\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.3.0\ba14d8b7789efde5ee150eacb297b7237abca39\logging-interceptor-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0ba14d8b7789efde5ee150eacb297b7237abca39">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.3.0_8f6b2eca73ee8f4b0085a3f03cef91a33aede1ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_ebbc6f24c97d4a7860e67f76b21c8180d5c18e43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_ff29343e76156bb2992d43788fdbd51cd90a4617\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_441c52561c00a3d4af05a446cacd6e953917e033\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_db42971bc06ac51d0f312d9a2ec59d95be6542ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_28b23b2cd6407a18f48b61773c2a5e834c150a41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9c8472f8e10502af60d0f63ea11eed68bdf690c2">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.squareup.leakcanary-leakcanary-android-1.4-beta2_f12ed62a3c02f5c628679979e6aa959fed676bf6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\io.realm\realm-annotations\2.3.1\1c1c75a7e1dfee58c51822987dc658f93e036c81\realm-annotations-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1c1c75a7e1dfee58c51822987dc658f93e036c81">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\realm-annotations-2.3.1_cce9d11f486e273babe3bd0c55c93fcc4a70b172\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.jakewharton.rxbinding\rxbinding-design\0.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d875246afc9be5798bf65fd61fb42af06fee4553">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton.rxbinding-rxbinding-design-0.4.0_2bf1d4bdb8bd603e08f175dfa876a22594c66469\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.jakewharton.rxbinding\rxbinding-recyclerview-v7\0.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="74ccbcc431e5d95ee2cf2783128700f32222dca3">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton.rxbinding-rxbinding-recyclerview-v7-0.4.0_355a5b416d95b5bf593cb5caaa718d87df5fd387\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_8ef0ad6feca0d16d9dc0cd31980f0341be39dcce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-watcher\1.4-beta2\6a920fb0d14e5e3b36e37cf33b1eeef2bcce4c92\leakcanary-watcher-1.4-beta2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6a920fb0d14e5e3b36e37cf33b1eeef2bcce4c92">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\leakcanary-watcher-1.4-beta2_0e9fabcaae3c003305b4685f2e0b90af5cb758de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\down_google\Yasuo-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_418a96f684e66bff1e36a7ba6a5c9aad4e3cbff3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\gradle-2.14.1\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.0.1\cabf146d220dcd70a2972166cd1bfae200b97eff\adapter-rxjava-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cabf146d220dcd70a2972166cd1bfae200b97eff">
+        <dex dex="D:\down_google\Yasuo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.0.1_cf0b210a4c0117d5ee2b86b6df3bbc62e20f1415\classes.dex" />
+    </item>
+
+</items>

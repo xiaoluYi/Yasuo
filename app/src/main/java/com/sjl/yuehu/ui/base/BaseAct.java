@@ -3,7 +3,6 @@ package com.sjl.yuehu.ui.base;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
-import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -15,8 +14,6 @@ import com.sjl.yuehu.injector.component.ActivityComponent;
 import com.sjl.yuehu.injector.component.DaggerActivityComponent;
 import com.sjl.yuehu.injector.module.ActivityModule;
 import com.sjl.yuehu.util.StringUtil;
-
-import javax.inject.Inject;
 
 /**
  * Created by 小鹿 on 2017/2/4.
