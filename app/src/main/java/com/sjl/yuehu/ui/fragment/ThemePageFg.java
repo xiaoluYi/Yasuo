@@ -1,6 +1,5 @@
 package com.sjl.yuehu.ui.fragment;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -15,9 +14,11 @@ import com.sjl.yuehu.R;
 import com.sjl.yuehu.data.bean.ThemesBean;
 import com.sjl.yuehu.mvp.presenter.ThemePageFgPresenter;
 import com.sjl.yuehu.mvp.view.ThemePageFgMvpView;
-import com.sjl.yuehu.ui.activity.WebViewAct;
 import com.sjl.yuehu.ui.adapter.ThemeAdapter;
 import com.sjl.yuehu.ui.base.BaseFg;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 import javax.inject.Inject;
 
@@ -131,9 +132,11 @@ public class ThemePageFg extends BaseFg implements ThemePageFgMvpView, ThemeAdap
 
     @Override
     public void click(int id) {
-        Intent intent = new Intent(getContext(), WebViewAct.class);
-        intent.putExtra("id", id);
-        startActivity(intent);
+        WebViewFg webFg = new WebViewFg();
+        Bundle bundle = new Bundle();
+        bundle.putInt("id", id);
+        webFg.setArguments(bundle);
+        fgListener.switchFragment(webFg, true);
     }
 
     @Override

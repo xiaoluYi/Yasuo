@@ -1,6 +1,7 @@
 package com.sjl.yuehu.data.bean;
 
 import java.util.List;
+
 /**
  * Created by 小鹿 on 2017/2/13.
  */

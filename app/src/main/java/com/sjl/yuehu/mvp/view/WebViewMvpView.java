@@ -1,7 +1,6 @@
 package com.sjl.yuehu.mvp.view;
 
 import com.sjl.yuehu.data.bean.WebBean;
-import com.sjl.yuehu.data.bean.WebExtraBean;
 import com.sjl.yuehu.ui.base.MvpView;
 
 /**
@@ -9,6 +8,4 @@ import com.sjl.yuehu.ui.base.MvpView;
  */
 public interface WebViewMvpView extends MvpView {
     void onLoad(WebBean bean);
-
-    void onLoadExtra(WebExtraBean bean);
 }

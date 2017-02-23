@@ -42,6 +42,8 @@ public class MainAct extends BaseAct implements View.OnClickListener, Toolbar.On
     Toolbar toolbar;
     @Bind(R.id.rv_left)
     RecyclerView rvLeft;
+    @Bind(R.id.share)
+    ImageView share;
     @Bind(R.id.notify)
     ImageView notify;
     @Bind(R.id.about)
@@ -80,16 +82,17 @@ public class MainAct extends BaseAct implements View.OnClickListener, Toolbar.On
         adpater = new RvLeftAdapter(this, this);
         rvLeft.setAdapter(adpater);
         switchFragment(new HomePageFg(), false);
-        RxView.clicks(notify).subscribe(aVoid -> {
-            goMessageFg();
-        });
-        RxView.clicks(rlFg).subscribe(aVoid -> {
-            goHomePageFg();
-        });
-        RxView.clicks(llCollect).subscribe(aVoid -> {
-            goMyCollect();
-        });
+        RxView.clicks(notify).subscribe(aVoid -> {goMessageFg();});
+//        RxView.clicks(about).subscribe(aVoid -> {goMore();});
+        RxView.clicks(rlFg).subscribe(aVoid -> {goHomePageFg();});
+//        RxView.clicks(rlLogin).subscribe(aVoid -> {goNetUser();});
+        RxView.clicks(llCollect).subscribe(aVoid -> {goMyCollect();});
+//        RxView.clicks(llDown).subscribe(aVoid -> {goDown();});
         presenter.onList();
+    }
+
+    private void goDown() {
+        Toast.makeText(MainAct.this, "离线下载完成", Toast.LENGTH_SHORT).show();
     }
 
     private void goMyCollect() {
@@ -97,9 +100,17 @@ public class MainAct extends BaseAct implements View.OnClickListener, Toolbar.On
         drawerlayout.closeDrawers();
     }
 
+    private void goNetUser() {
+        Toast.makeText(MainAct.this, "登陆个人账号", Toast.LENGTH_SHORT).show();
+    }
+
     private void goHomePageFg() {
         switchFragment(new HomePageFg(), false);
         drawerlayout.closeDrawers();
+    }
+
+    private void goMore() {
+        Toast.makeText(MainAct.this, "日间模式和夜间模式", Toast.LENGTH_SHORT).show();
     }
 
     private void goMessageFg() {
@@ -118,12 +129,14 @@ public class MainAct extends BaseAct implements View.OnClickListener, Toolbar.On
     @Override
     public void fragmentVisible(BaseFg fragment) {
         super.fragmentVisible(fragment);
-        String fragmentName = fragment.getName();
         about.setVisibility(View.GONE);
         notify.setVisibility(View.GONE);
-        if (fragmentName.equals(HomePageFg.class.getName())) {
+        share.setVisibility(View.GONE);
+        if (fragment.getName().equals(HomePageFg.class.getName())) {
             about.setVisibility(View.VISIBLE);
             notify.setVisibility(View.VISIBLE);
+        } else {
+            share.setVisibility(View.VISIBLE);
         }
     }
 

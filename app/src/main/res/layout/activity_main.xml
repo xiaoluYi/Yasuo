@@ -18,6 +18,15 @@
             android:layout_height="?android:attr/actionBarSize"
             android:background="@color/colorPrimary"
             android:theme="@style/Theme.ToolBar.ZhiHu">
+
+            <ImageView
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="16dp"
+                android:visibility="gone" />
+
             <ImageView
                 android:id="@+id/about"
                 android:layout_width="25dp"
@@ -64,7 +73,7 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_centerVertical="true"
-                android:src="@mipmap/ic_user_toolbar" />
+                android:src="@mipmap/user_toobar" />
 
             <TextView
                 android:layout_width="match_parent"

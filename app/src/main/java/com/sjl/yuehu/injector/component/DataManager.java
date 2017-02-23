@@ -9,7 +9,6 @@ import com.sjl.yuehu.data.bean.HomeBean;
 import com.sjl.yuehu.data.bean.ThemesBean;
 import com.sjl.yuehu.data.bean.TitileBean;
 import com.sjl.yuehu.data.bean.WebBean;
-import com.sjl.yuehu.data.bean.WebExtraBean;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
@@ -75,13 +74,6 @@ public class DataManager {
     //主题过往消息
     public Subscription onLoadThemeGone(String timestamp, Subscriber<ThemesBean> subscriber, int id) {
         return apiService.onThemeGone(timestamp,id)
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(subscriber);
-    }
-//点赞等信息
-    public Subscription onLoadExtra(int id, Subscriber<WebExtraBean> subscriber) {
-        return apiService.onLoadExtra(id)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(subscriber);
